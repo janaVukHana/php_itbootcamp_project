@@ -1,0 +1,33 @@
+
+
+      <!-- main content -->
+      <form method="POST" action="" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label for="court-name" class="form-label">Court name</label>
+          <input type="text" class="form-control" id="court-name" aria-describedby="emailHelp" name="court_name">
+          <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div>
+        <!-- select location SELECT -->
+        <select class="form-select" aria-label="Default select example" name="location">
+            <option selected disabled>Court location</option>
+            <option value="detelinara">Detelinara</option>
+            <option value="liman">Liman</option>
+            <option value="novo_naselje">Novo naselje</option>
+            <option value="centar">Centar</option>
+            <option value="grbavica">Grbavica</option>
+            <option value="kej">Kej</option>
+          </select>
+        <!-- add description TEXTAREA -->
+        <div class="mb-3">
+            <label for="description" class="form-label">Add description</label>
+            <textarea class="form-control" id="description" rows="3" name="description"></textarea>
+          </div>
+        <!-- add file -->
+          <div class="mb-3">
+            <label for="upload" class="form-label">Court name</label>
+            <input type="file" class="form-control" id="upload" aria-describedby="emailHelp" name="upload">
+          </div>
+        <button type="submit" class="btn btn-primary" name="add_court">Add Court</button>
+      </form>
+
+     
